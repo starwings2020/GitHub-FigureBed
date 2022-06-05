@@ -16,10 +16,10 @@
 error_reporting(0);
 header('Content-Type: text/html; charset=UTF-8');
 date_default_timezone_set("PRC");
-define("REPO","你用来存图片的公共仓库");//必须是下面用户名下的公开仓库
-define("USER","你的GitHub用户名");//必须是当前GitHub用户名
-define("MAIL","你的GitHub邮箱");//
-define("TOKEN","你的token");//https://github.com/settings/tokens 去这个页面生成一个有写权限的token（write:packages前打勾）
+define("REPO","PicCdn");//必须是下面用户名下的公开仓库
+define("USER","420598130@qq.com");//必须是当前GitHub用户名
+define("MAIL","420598130@qq.com");//
+define("TOKEN","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");//https://github.com/settings/tokens 去这个页面生成一个有写权限的token（write:packages前打勾）
 
 function upload($url, $content)
 {
